@@ -185,3 +185,56 @@ export const SearchIcon = (props: IconSvgProps) => (
     />
   </svg>
 );
+
+export const LinkedInIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}) => {
+  return (
+    <svg
+      height={size || height}
+      viewBox="0 0 24 24"
+      width={size || width}
+      {...props}
+    >
+      <path
+        d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 8.75h3.95v11.75H3V8.75zM9 8.75h3.78v1.62h.05c.52-.94 1.8-1.92 3.72-1.92 3.98 0 4.7 2.61 4.7 6v6.05h-3.95v-5.36c0-1.28-.03-2.92-1.78-2.92-1.78 0-2.05 1.4-2.05 2.85v5.43H9V8.75z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+};
+
+export const HummingbirdIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 100"
+      width="100"
+      height="100"
+    >
+      <path
+        d="M50 50 C 45 45, 40 45, 35 40 C 30 35, 35 30, 40 25 C 45 20, 55 25, 60 30 C 65 35, 60 40, 55 45 C 50 50, 50 50, 50 50 Z"
+        fill="black"
+      />
+
+      <path
+        d="M50 30 C 45 25, 40 20, 35 20 C 30 20, 30 30, 35 40 C 40 50, 45 40, 50 30 Z"
+        fill="black"
+      />
+      <path
+        d="M50 30 C 55 25, 60 20, 65 20 C 70 20, 70 30, 65 40 C 60 50, 55 40, 50 30 Z"
+        fill="black"
+      />
+
+      <path d="M60 25 L 70 20 L 60 15 Z" fill="black" />
+    </svg>
+  );
+};

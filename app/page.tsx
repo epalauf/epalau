@@ -9,7 +9,7 @@ import { Avatar } from "@heroui/avatar";
 import { Tooltip } from "@heroui/tooltip";
 import { motion } from "framer-motion";
 
-// Import Lucide icons
+// Lucide icons
 import {
   MapPin,
   Phone,
