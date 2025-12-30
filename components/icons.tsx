@@ -208,10 +208,10 @@ export const LinkedInIcon: React.FC<IconSvgProps> = ({
 };
 
 export const HummingbirdIcon: React.FC<IconSvgProps> = ({
-  size = 24,
-  width,
-  height,
-  ...props
+  size: _size = 24,
+  width: _width,
+  height: _height,
+  ..._props
 }) => {
   return (
     <svg
