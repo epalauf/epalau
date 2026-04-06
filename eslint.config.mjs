@@ -74,6 +74,7 @@ export default [
       ".turbo/**",
       "*.config.js",
       "*.config.mjs",
+      "next-env.d.ts",
     ],
   },
 ];

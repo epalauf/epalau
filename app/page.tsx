@@ -26,6 +26,9 @@ import {
   Wrench,
   ExternalLink,
   Rocket,
+  Brain,
+  Layout,
+  Settings2,
 } from "lucide-react";
 import React from "react";
 
@@ -174,9 +177,8 @@ export default function ResumePage() {
                 <div className="flex flex-wrap gap-2">
                   <Chip variant="flat">JavaScript</Chip>
                   <Chip variant="flat">TypeScript</Chip>
-                  <Chip variant="flat">HTML5</Chip>
-                  <Chip variant="flat">CSS3</Chip>
                   <Chip variant="flat">Python</Chip>
+                  <Chip variant="flat">SQL</Chip>
                 </div>
               </div>
 
@@ -190,6 +192,35 @@ export default function ResumePage() {
                   <Chip variant="flat">Next.js</Chip>
                   <Chip variant="flat">Angular</Chip>
                   <Chip variant="flat">WordPress</Chip>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold mb-2 flex items-center gap-2">
+                  <Layout size={18} className="text-teal-500" /> Web
+                  Technologies
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  <Chip variant="flat">HTML5</Chip>
+                  <Chip variant="flat">CSS3</Chip>
+                  <Chip variant="flat">SASS/SCSS</Chip>
+                  <Chip variant="flat">CSS Grid</Chip>
+                  <Chip variant="flat">Flexbox</Chip>
+                  <Chip variant="flat">Responsive Design</Chip>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold mb-2 flex items-center gap-2">
+                  <Settings2 size={18} className="text-orange-500" />{" "}
+                  Methodologies & Practices
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  <Chip variant="flat">REST APIs</Chip>
+                  <Chip variant="flat">GraphQL</Chip>
+                  <Chip variant="flat">Agile / Scrum</Chip>
+                  <Chip variant="flat">SEO</Chip>
+                  <Chip variant="flat">Web Performance</Chip>
                 </div>
               </div>
 
@@ -212,6 +243,8 @@ export default function ResumePage() {
                 </h4>
                 <div className="flex flex-wrap gap-2">
                   <Chip variant="flat">Redux</Chip>
+                  <Chip variant="flat">Tanstack Query</Chip>
+                  <Chip variant="flat">useState / useReducer</Chip>
                 </div>
               </div>
 
@@ -237,6 +270,54 @@ export default function ResumePage() {
                   <Chip variant="flat">Google Cloud</Chip>
                   <Chip variant="flat">Node.js</Chip>
                   <Chip variant="flat">MongoDB</Chip>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-default-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <Brain size={18} className="text-violet-600" /> Artificial
+                    Intelligence
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    <Chip
+                      variant="flat"
+                      className="bg-violet-100 text-violet-800 border-violet-300 dark:bg-violet-900/30 dark:text-violet-300 dark:border-violet-700"
+                    >
+                      LLMs
+                    </Chip>
+                    <Chip
+                      variant="flat"
+                      className="bg-violet-100 text-violet-800 border-violet-300 dark:bg-violet-900/30 dark:text-violet-300 dark:border-violet-700"
+                    >
+                      Prompt Engineering
+                    </Chip>
+                    <Chip
+                      variant="flat"
+                      className="bg-violet-100 text-violet-800 border-violet-300 dark:bg-violet-900/30 dark:text-violet-300 dark:border-violet-700"
+                    >
+                      Claude / GPT
+                    </Chip>
+                    <Chip
+                      variant="flat"
+                      className="bg-violet-100 text-violet-800 border-violet-300 dark:bg-violet-900/30 dark:text-violet-300 dark:border-violet-700"
+                    >
+                      AI Agents
+                    </Chip>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2 text-violet-700 dark:text-violet-400">
+                    Applied AI
+                  </h4>
+                  <p className="text-sm text-default-500">
+                    Expert in designing and integrating generative AI-powered
+                    solutions. Experience building applications with LLMs
+                    (Claude, GPT), advanced prompt design, autonomous agents,
+                    and AI-augmented workflows to optimize web products.
+                  </p>
                 </div>
               </div>
             </div>
@@ -551,7 +632,7 @@ export default function ResumePage() {
                     Front-End Developer
                   </h4>
                   <span className="text-default-500 text-sm">
-                    February 2021 - Present
+                    February 2021 - March 2026
                   </span>
                 </div>
                 <p className="font-medium mb-2">Zelline, Cali</p>
@@ -599,6 +680,54 @@ export default function ResumePage() {
                   <li>
                     Ensured fully responsive and mobile-friendly design
                     implementations
+                  </li>
+                </ul>
+              </div>
+
+              <Divider className="my-4" />
+
+              <div>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                  <h4 className="text-lg font-medium text-primary">
+                    Software Developer
+                  </h4>
+                  <span className="text-default-500 text-sm">
+                    August 2011 - July 2012
+                  </span>
+                </div>
+                <p className="font-medium mb-2">Aerolíneas de Antioquia S.A.</p>
+                <ul className="list-disc pl-5">
+                  <li>
+                    Development and maintenance of web-based applications for
+                    the company
+                  </li>
+                </ul>
+              </div>
+
+              <Divider className="my-4" />
+
+              <div>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                  <h4 className="text-lg font-medium text-primary">
+                    Software Engineer & Systems Maintenance
+                  </h4>
+                  <span className="text-default-500 text-sm">
+                    June 2003 - May 2011
+                  </span>
+                </div>
+                <p className="font-medium mb-2">SILOE CASTING, Bogotá</p>
+                <ul className="list-disc pl-5">
+                  <li>
+                    Preventive and corrective hardware and software maintenance
+                    for computers
+                  </li>
+                  <li>
+                    Installation, configuration and update of operating systems
+                    and applications
+                  </li>
+                  <li>
+                    Internal technical support and IT incident resolution for
+                    the company
                   </li>
                 </ul>
               </div>
