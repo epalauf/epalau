@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "Front-end Developer",
   navItems: [
     {
-      label: "Home",
+      label: "",
       href: "/",
     },
     // {
@@ -20,10 +20,10 @@ export const siteConfig = {
     //   label: "Blog",
     //   href: "/blog",
     // },
-    {
-      label: "About",
-      href: "/about",
-    },
+    // {
+    //   label: "About",
+    //   href: "/about",
+    // },
   ],
   navMenuItems: [
     {
@@ -60,7 +60,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://www.linkedin.com/in/epalau/",
-    linkedin: "https://github.com/epalauf/web-development-showcase",
+    github: "https://github.com/epalauf",
+    linkedin: "https://www.linkedin.com/in/epalau/",
   },
 };

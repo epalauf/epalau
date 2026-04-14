@@ -123,10 +123,7 @@ export default function ResumePage() {
                 </Tooltip>
 
                 <Tooltip content="GitHub Profile">
-                  <Link
-                    isExternal
-                    href="https://github.com/epalauf/web-development-showcase"
-                  >
+                  <Link isExternal href="https://github.com/epalauf">
                     <Chip
                       startContent={<Github size={18} />}
                       variant="flat"
